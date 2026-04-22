@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>CaetanoSoft</groupId>
+    <artifactId>BricksCollectorHelper</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>
+        <exec.mainClass>CaetanoSoft.BricksCollectorHelper.BricksCollectorHelper</exec.mainClass>
+    </properties>
+    <name>Bricks Collector Helper</name>
+    <description>This Java Swing GUI application can help collectors of 
+Self-Locking Building/Automatic Binding plastic Bricks to control their
+spending on the hobby and complete the sets they collect.</description>
+    <build>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.4.1</version>
+          <configuration>
+            <archive>
+              <index>true</index>
+              <addMavenDescriptor>false</addMavenDescriptor>
+              <manifestFile>src/main/java/META-INF/MANIFEST.MF</manifestFile>
+              <manifest>
+                <addClasspath>true</addClasspath>
+                <classpathPrefix>lib/</classpathPrefix>
+                <mainClass>CaetanoSoft.BricksCollectorHelper.BricksCollectorHelper</mainClass>
+              </manifest>
+              <manifestEntries>
+                <Built-By></Built-By>
+              </manifestEntries>
+            </archive>
+          </configuration>
+        </plugin>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.14.0</version>
+            <configuration>
+               <compilerArgs>
+                  <arg>-Xlint</arg>
+               </compilerArgs>
+            </configuration>
+         </plugin>
+      </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>CaetanoSoft</groupId>
+            <artifactId>Library</artifactId>
+            <version>1.00</version>
+            <type>jar</type>
+            <classifier>CaetanoSoft.Library-1.00.jar</classifier>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+SplashScreen-Image: CaetanoSoft/BricksCollectorHelper/Resources/splash.gif
