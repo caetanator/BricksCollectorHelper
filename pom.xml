@@ -54,5 +54,15 @@ spending on the hobby and complete the sets they collect.</description>
             <artifactId>Library</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>9.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>sqlserver</groupId>
+            <artifactId>mssql-jdbc.jre11</artifactId>
+            <version>13.4.0</version>
+        </dependency>
     </dependencies>
 </project>
