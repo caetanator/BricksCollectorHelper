@@ -1,9 +1,11 @@
 ﻿**/nbproject/private/
 /.vs
 /.vscode
-.classpath
-.project
-.settings/
-target/
+/.classpath
+/.git
+/.github
+/.project
+/.settings
+/target
 /Setup/MySQL JDBC
 
