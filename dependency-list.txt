@@ -1,0 +1,4 @@
+
+The following files have been resolved:
+   CaetanoSoft:Library:jar:CaetanoSoft.Library-1.00.jar:1.00:compile[36m -- module Library[0;1;33m (auto)[m
+
