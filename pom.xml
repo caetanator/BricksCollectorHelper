@@ -50,11 +50,9 @@ spending on the hobby and complete the sets they collect.</description>
     </build>
     <dependencies>
         <dependency>
-            <groupId>CaetanoSoft</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>Library</artifactId>
-            <version>1.00</version>
-            <type>jar</type>
-            <classifier>CaetanoSoft.Library-1.00.jar</classifier>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>
