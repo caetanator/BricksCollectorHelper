@@ -81,16 +81,16 @@ spending on the hobby and complete the sets they collect.</description>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>mysql</groupId>
+			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
-			<version>9.6.0</version>
-			<scope>runtime</scope>
+			<version>9.7.0</version>
+      <scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>sqlserver</groupId>
-			<artifactId>mssql-jdbc.jre11</artifactId>
-			<version>13.4.0</version>
-			<scope>runtime</scope>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>13.4.0.jre11</version>
+      <scope>runtime</scope>
 		</dependency>
 	</dependencies>
 </project>
